@@ -1,0 +1,9 @@
+package com.AccessSelenium;
+
+import org.testng.annotations.Test;
+
+public class Awesome_Test001 {
+  @Test
+  public void f() {
+  }
+}

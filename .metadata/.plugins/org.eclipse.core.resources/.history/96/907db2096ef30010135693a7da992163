@@ -1,0 +1,24 @@
+package Com.SeleniumTest;
+
+import org.testng.annotations.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.Selenium2.Library001;
+
+import junit.framework.Assert;
+
+public class SeleniumTest001 {
+	Library001 lib1= new Library001();
+	WebDriver driver= new ChromeDriver();
+	String ExpStr="My Orders";
+  @Test
+  
+  public void Test_Login_Validate() {
+	  lib1.init(driver);
+	  String page_title=lib1.Lanuch_0cartLogin();
+	  String ActStr= lib1.Perform_Login_Valid("aarchie.dhawan@example.com", "user123");/
+	  Sytem.out.println(ActStr);
+//	  Assert.assertEquals(ExpStr, ActStr);
+  }
+}

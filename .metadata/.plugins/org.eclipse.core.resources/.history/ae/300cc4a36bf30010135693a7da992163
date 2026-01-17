@@ -1,0 +1,9 @@
+package Com.SeleniumTest;
+
+import org.testng.annotations.Test;
+
+public class SeleniumTest001 {
+  @Test
+  public void f() {
+  }
+}

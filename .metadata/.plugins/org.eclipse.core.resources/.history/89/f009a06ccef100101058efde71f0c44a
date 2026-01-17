@@ -1,0 +1,22 @@
+package com.ListMethod;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.testng.annotations.Test;
+
+import com.ListLib01.ListMethods;
+
+public class ListMethodScript {
+	ListMethods obj= new ListMethods();
+	boolean exp=true;
+	
+  @Test
+  public void f() {
+	  List<String> test1= Arrays.asList("Pune","Mumbai","Coimbatore");
+	  List<String> test2= Arrays.asList("Pune1","Mumbai1","Coimbatore1");
+	  boolean 
+	 
+	  obj.ArrayListTest(null, null);
+  }
+}

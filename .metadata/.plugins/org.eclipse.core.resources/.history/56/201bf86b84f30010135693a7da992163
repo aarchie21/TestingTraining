@@ -1,0 +1,58 @@
+package com.Selenium2;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+public class Library001 {
+	WebDriver driver;
+	
+	public void init(WebDriver driver) {
+		this.driver=driver;
+	}
+	
+	public String Lanuch_0cartLogin() {
+		driver.get("https://awesomeqa.com/ui/index.php?route=account/login");
+		String LoginPageTitle = driver.getTitle();
+		return LoginPageTitle;
+	}
+	
+	public String Perform_Login_Valid(String email,String password) throws InterruptedException
+	{
+		driver.findElement(By.xpath("//*[@id='input-email']")).sendKeys(email);
+		driver.findElement(By.xpath("//input[@id='input-password']")).sendKeys(password);
+		driver.findElement(By.xpath("//input[@type='submit']")).click();
+		Thread.sleep(2000);
+		Actions act = new Actions(driver);
+		WebElement el = driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/ul/li[5]/a"));
+		act.moveToElement(el).click().build().perform();
+//		String confirmation_message=driver.findElement(By.xpath("//h2[contains(text(),'My Orders')]")).getText();
+//		return confirmation_message;
+		return "true";
+	}
+//	public String Perform_Login_INValid(String email,String password) throws InterruptedException
+//	{
+//		driver.findElement(By.xpath("//input[@id ='input-email']")).sendKeys(email);
+//		driver.findElement(By.xpath("//input[@id='input-password']")).sendKeys(password);
+//		driver.findElement(By.xpath("//input[@type='submit']")).click();
+//		String confirmation_message=driver.findElement(By.xpath("//div[@class=\"alert alert-danger alert-dismissible\"]")).getText();
+//		return confirmation_message;
+//	}
+//	
+//	public void Logout()
+//	{
+//		driver.findElement(By.xpath("//a[@class='list-group-item'][13]")).click();
+//		driver.findElement(By.xpath("//a[@class='list-group-item'][1]")).click();
+//	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

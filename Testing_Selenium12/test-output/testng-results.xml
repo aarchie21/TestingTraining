@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-16T17:14:02 IST" name="Default suite" finished-at="2026-01-16T17:14:12 IST" duration-ms="10214">
+    <groups>
+    </groups>
+    <test started-at="2026-01-16T17:14:02 IST" name="Default test" finished-at="2026-01-16T17:14:12 IST" duration-ms="10214">
+      <class name="com.AccessSelenium.Navigationtest">
+        <test-method signature="NavigateTest()[pri:0, instance:com.AccessSelenium.Navigationtest@7ca33c24]" started-at="2026-01-16T17:14:02 IST" name="NavigateTest" finished-at="2026-01-16T17:14:12 IST" duration-ms="10188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateTest -->
+      </class> <!-- com.AccessSelenium.Navigationtest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

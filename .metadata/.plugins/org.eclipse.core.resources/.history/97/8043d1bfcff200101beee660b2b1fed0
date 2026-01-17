@@ -1,0 +1,9 @@
+package com.AccessSelenium;
+
+import org.testng.annotations.Test;
+
+public class Navigationtest {
+  @Test
+  public void f() {
+  }
+}

@@ -1,0 +1,26 @@
+package com.AccessSelenium;
+
+import org.testng.annotations.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.Selenium.Testing002;
+import com.Selenium.Testing03;
+
+public class Navigationtest {
+	WebDriver driver= new ChromeDriver();
+	Testing002 pg2=new Testing002();
+	Testing03 pg3=new Testing03();
+	
+  @Test
+  public void NavigateTest() throws InterruptedException {
+	  pg2.init(driver);
+	  pg2.InvokeAwesomeQaApp();
+	  pg3.init0(driver);
+	  pg3.navigat_back();
+	  Thread.sleep(2000);
+	  pg3.navigat_forward();
+	  Thread.sleep(2000);
+	  pg3.refresh();
+  }
+}
