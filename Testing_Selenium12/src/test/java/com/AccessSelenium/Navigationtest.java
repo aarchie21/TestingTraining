@@ -7,6 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import com.Selenium.Testing002;
 import com.Selenium.Testing03;
 
+import Selenium_Test.DataProvider;
+
 public class Navigationtest {
 	WebDriver driver= new ChromeDriver();
 	Testing002 pg2=new Testing002();
@@ -25,4 +27,16 @@ public class Navigationtest {
 	  
 	  System.out.println(pg3.getSource());
   }
+  @Test(dataProvider="dp")
+	public void Usertest()
+	{
+		
+	}
+	 @DataProvider
+	  public Object[][] dp() {
+		    return new Object[][] {
+		      new Object[] { },
+		      new Object[] { 22698, "Kalyan"},
+		    };
+
 }
