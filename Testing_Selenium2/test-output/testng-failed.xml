@@ -5,7 +5,7 @@
     <classes>
       <class name="Com.SeleniumTest.SeleniumTest001">
         <methods>
-          <include name="Alert"/>
+          <include name="Actions"/>
         </methods>
       </class> <!-- Com.SeleniumTest.SeleniumTest001 -->
     </classes>

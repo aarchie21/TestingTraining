@@ -147,27 +147,39 @@ public class Library001 {
 ////			data1.selectByVisibleText("Baby");
 //			return option;
 //		}
-		public String Alert() throws InterruptedException {
-			driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
-			Thread.sleep(3000);
-			
-			WebElement unm=driver.findElement(By.id("login1"));
-			WebElement pwd=driver.findElement(By.id("password"));
-			Thread.sleep(2000);
-			WebElement submessage=driver.findElement(By.id("//button[@type='submit']"));
-			submessage.click();
-			Alert act=driver.switchTo().alert();
-			String Act_AlertMessage=act.getText();
-			return Act_AlertMessage;
-					
-						
-		}
+//		public String Alert() throws InterruptedException {
+//			driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
+//			Thread.sleep(3000);
+//			
+//			WebElement unm=driver.findElement(By.id("login1"));
+//			WebElement pwd=driver.findElement(By.id("password"));
+//			Thread.sleep(2000);
+//			WebElement submessage=driver.findElement(By.id("//button[@type='submit']"));
+//			submessage.click();
+//			Alert act=driver.switchTo().alert();
+//			String Act_AlertMessage=act.getText();
+//			return Act_AlertMessage;
+//					
+//						
+//		}
+
+	public void draggableAndDroppable() throws InterruptedException {
+		driver.get("https://jqueryui.com/droppable/");
+		WebElement iframe= driver.findElement(By.xpath("//*[@id='content']/iframe"));
+		driver.switchTo().frame(iframe);
 	
-	
-	
-	
-	
-	
-	
-	
+		WebElement draggable= driver.findElement(By.xpath("//div[@id='draggable']"));
+		WebElement droppable= driver.findElement(By.xpath("//div[@id='droppable']"));
+//		new Actions(driver).dragAndDrop("draggable, droppable").perform(); //1
+//		new Actions(driver).clickAndHold(draggable).moveToElement(droppable).release().perform(); //2
+		new Actions(driver).clickAndHold(draggable).moveToElement(droppable).release().build().perform(); //3
+	}
 }
+	
+	
+	
+	
+	
+	
+	
+

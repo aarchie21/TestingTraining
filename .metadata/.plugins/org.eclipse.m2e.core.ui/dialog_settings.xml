@@ -29,6 +29,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="Testing_Selenium13.Testing_Selenium13"/>
 			<item value="Testing_Selenium2.Testing_Selenium2"/>
 			<item value="Testing_Selenium12.Testing_Selenium12"/>
 			<item value="Testing_Selenium23.Testing_Selenium23"/>
@@ -38,6 +39,7 @@
 			<item value="Testing_TestNG.Testing_TestNG"/>
 		</list>
 		<list key="groupId">
+			<item value="Testing_Selenium13"/>
 			<item value="Testing_Selenium2"/>
 			<item value="Testing_Selenium12"/>
 			<item value="Testing_Selenium23"/>
@@ -47,6 +49,7 @@
 			<item value="Testing_TestNG"/>
 		</list>
 		<list key="artifactId">
+			<item value="Testing_Selenium13"/>
 			<item value="Testing_Selenium2"/>
 			<item value="Testing_Selenium12"/>
 			<item value="Testing_Selenium23"/>

@@ -21,11 +21,16 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
+     <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
     <version>4.38.0</version>
     <scope>compile</scope>
-</dependency>
+     </dependency>
+     <dependency>
+     	<groupId>Testing_Selenium12</groupId>
+     	<artifactId>Testing_Selenium12</artifactId>
+     	<version>0.0.1-SNAPSHOT</version>
+     </dependency>
   </dependencies>
 </project>

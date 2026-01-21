@@ -70,11 +70,17 @@ public class SeleniumTest001
 //		List<WebElement> cnt= lib1.Select_Drop_list();
 //		System.out.println("Total Contacts:"+cnt);
 //	}
+//	@Test
+//	public void Alert() throws InterruptedException {
+//		lib1.init(driver);
+//		String a=lib1.Alert();
+//		System.out.println(a);
+//	}
+	
 	@Test
-	public void Alert() throws InterruptedException {
+	public void Actions() throws InterruptedException {
 		lib1.init(driver);
-		String a=lib1.Alert();
-		System.out.println(a);
+		lib1.draggableAndDroppable();
 	}
 }
 
