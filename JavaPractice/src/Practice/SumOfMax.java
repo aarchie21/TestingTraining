@@ -10,7 +10,7 @@ public class SumOfMax {
 		int n=sc.nextInt();
 		if(n<=0){System.out.println("invalid input"); return;}
 		if(n%2!=0) {System.out.println("please eneter even number"); return;}
-		int[] arr= new int[n];
+		int[] arr= new int[n]; 
 		int sum=0;
 		int maxSum=0;
 		for(int i=0;i<n;i++) {

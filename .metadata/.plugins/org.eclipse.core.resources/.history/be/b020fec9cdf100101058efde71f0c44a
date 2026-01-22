@@ -1,9 +1,0 @@
-package com.ListMethod;
-
-import org.testng.annotations.Test;
-
-public class ListMethodScript {
-  @Test
-  public void f() {
-  }
-}
