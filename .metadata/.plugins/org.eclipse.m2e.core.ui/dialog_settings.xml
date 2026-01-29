@@ -30,6 +30,11 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="Cucumber_"/>
+			<item value="Cucumber_Validation.Cucumber_Validation"/>
+			<item value="Cucumber_Selenium.Cucumber_Selenium"/>
+			<item value="Testing_CucumberFile.Testing_CucumberFile"/>
+			<item value="Testing_CucumberBDD.Testing_CucumberBDD"/>
 			<item value="Testing_CaseStudy.Testing_CaseStudy"/>
 			<item value="Testing_Selenium13.Testing_Selenium13"/>
 			<item value="Testing_Selenium13"/>
@@ -42,6 +47,11 @@
 			<item value="Testing_TestNG.Testing_TestNG"/>
 		</list>
 		<list key="groupId">
+			<item value="Cucumber_"/>
+			<item value="Cucumber_Validation"/>
+			<item value="Cucumber_Selenium"/>
+			<item value="Testing_CucumberFile"/>
+			<item value="Testing_CucumberBDD"/>
 			<item value="Testing_CaseStudy"/>
 			<item value="Testing_Selenium13"/>
 			<item value="Testing_Selenium2"/>
@@ -53,6 +63,10 @@
 			<item value="Testing_TestNG"/>
 		</list>
 		<list key="artifactId">
+			<item value="Cucumber_Validation"/>
+			<item value="Cucumber_Selenium"/>
+			<item value="Testing_CucumberFile"/>
+			<item value="Testing_CucumberBDD"/>
 			<item value="Testing_CaseStudy"/>
 			<item value="Testing_Selenium13"/>
 			<item value="Testing_Selenium2"/>
@@ -100,6 +114,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\aarchie.dhawan\eclipse-workspace\SeleniumTrainningProject"/>
 			<item value="C:\Users\aarchie.dhawan\eclipse-workspace"/>
 		</list>
 		<list key="projectNameTemplate">
