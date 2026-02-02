@@ -1,0 +1,5 @@
+TokenRest2026
+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
+
+Custom Assert in Rest Assured
+https://www.baeldung.com/java-rest-assured-assert-json-responses

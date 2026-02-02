@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\aarchie.dhawan\eclipse-workspace\SeleniumTrainningProject\src\main\java\ExcelRead\BaseClass.java"/>
 			<item value="C:\Users\aarchie.dhawan\eclipse-workspace\Testing_Selenium2"/>
 			<item value="C:\Users\aarchie.dhawan\eclipse-workspace\Testing_Selenium12\src\test\java\com\AccessSelenium\Navigationtest.java"/>
 			<item value="C:\Users\aarchie.dhawan\eclipse-workspace\Selenium1"/>
@@ -30,6 +31,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="TrainingProject_Cucmber_Selenium.TrainingProject_Cucmber_Selenium"/>
 			<item value="Cucumber_"/>
 			<item value="Cucumber_Validation.Cucumber_Validation"/>
 			<item value="Cucumber_Selenium.Cucumber_Selenium"/>
@@ -44,9 +46,9 @@
 			<item value="Testing_Selenium01.Testing_Selenium01"/>
 			<item value="Testing_Selenium1.Testing_Selenium1"/>
 			<item value="Testing_TestNG1.Testing_TestNG1"/>
-			<item value="Testing_TestNG.Testing_TestNG"/>
 		</list>
 		<list key="groupId">
+			<item value="TrainingProject_Cucmber_Selenium"/>
 			<item value="Cucumber_"/>
 			<item value="Cucumber_Validation"/>
 			<item value="Cucumber_Selenium"/>
@@ -63,6 +65,7 @@
 			<item value="Testing_TestNG"/>
 		</list>
 		<list key="artifactId">
+			<item value="TrainingProject_Cucmber_Selenium"/>
 			<item value="Cucumber_Validation"/>
 			<item value="Cucumber_Selenium"/>
 			<item value="Testing_CucumberFile"/>
